@@ -2,8 +2,18 @@
    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
     .caixa {
     font-size: 14px;
-    font-family: 'Montserrat', var(--sans-serif); /* aplicamos a fonte importada */
+    font-family: 'Montserrat', var(--sans-serif); 
     font-weight: 400;
     background-color: #fff;
-  }
+    }
+    
+    .escala > div:after{
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    width: 5px;
+    margin-left: 5px;
+    border-top: 1px solid #333;
+    }
+
 </style>
