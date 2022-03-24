@@ -2,11 +2,32 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
   /* complete ou crie aqui as suas regras de CSS */
   .caixa {
+    width: 100%;
+    max-width: 700px;
     font-size: 14px;
-    font-family: 'Montserrat', var(--sans-serif); /* aplicamos a fonte importada */
+    height: 470px;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    border: 1px solid #999;
+    font-family: 'Montserrat', var(--sans-serif);
     font-weight: 400;
     background-color: #fff;
   }
+  .caixa > div {
+      padding: 15px 30px;
+     
+  }
+    
+    background-color: #efefef;
+    .caixa .titulo {
+        background-color: #efefef;
+        font-size: 24px;
+        font-weight: bold;
+    } 
+    
+    .caixa .fonte {
+        background-color: #efefef;
+    } 
     
     .grafico {
         display: grid;
