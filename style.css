@@ -92,21 +92,16 @@
     }
     .eua {
         height: calc((22.94/25)*100%)
-        opacity: 100%;
     }
     .ch {
         height: calc((16.86/25)*100%)
-        opacity: 80%;
     }
     .jp {
         height: calc((5.10/25)*100%)
-        opacity: 60%;
     }
     .al {
         height: calc((4.23/25)*100%)
-        opacity: 40%;
     }
     .ru {
         height: calc((3.11/25)*100%)
-        opacity: 20%;
     }
